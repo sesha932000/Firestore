@@ -15,17 +15,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  late String title;
 
-  String text = "No Value Entered";
-
-  void _setText() {
-    setState(() {
-      text = title;
-    });
-  }
-
-  final _formKey = GlobalKey<FormState>();
   TextEditingController _sampledata1 = TextEditingController();
 
   /// BOTTOM NAVIGATION BAR
